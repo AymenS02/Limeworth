@@ -2,14 +2,14 @@ import { motion } from 'framer-motion';
 
 function Home() {
   return (
-    <div className="flex justify-center items-center h-screen bg-gray-100">
+    <div className="flex justify-center items-center h-screen bg-green-500">
       <motion.div
         className="p-8 bg-white rounded-lg shadow-lg"
         animate={{ scale: 1.2 }}
         transition={{ duration: 0.5 }}
       >
         <h1 className="text-2xl items-center font-bold p-2">Welcome to Limeworth X-ray & Ultrasound</h1>
-        <h3 className="flex justify-center items-center font-bold p-2">Working Hours (Ultrasound by Appointment)</h3>
+        <h3 className="flex justify-center items-center font-bold p-2">Working Hours (Ultrasounds by Appointment)</h3>
         <table className="table-auto border-collapse border border-gray-300 w-full text-left">
           <thead>
             <tr>

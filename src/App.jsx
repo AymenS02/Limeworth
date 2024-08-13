@@ -10,17 +10,17 @@ function App() {
 
   return (
     <>
-      <section id="Home" className='sectionAll'>
+      <section id="Home" className=''>
         {/* <Navbar /> */}
         <Home />
       </section>
-      <section id="About" className="sectionAbout">
+      <section id="About" className="">
         <About />
       </section>
-      <section id="Experience" className='sectionExperience'>
+      <section id="Experience" className=''>
         <Services />
       </section>
-      <section id="Skills" className='sectionSkills'>
+      <section id="Skills" className=''>
         <Contact />
       </section>
       <footer className='flex items-stretch'>
