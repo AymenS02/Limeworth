@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <section id="Home" className='sectionAll'>
-        <Navbar />
+        {/* <Navbar /> */}
         <Home />
       </section>
       <section id="About" className="sectionAbout">
