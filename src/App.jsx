@@ -1,7 +1,8 @@
 import React from 'react';
+import Navbar from './components/Navbar.jsx';
 import Home from './components/Home.jsx';
-import About from './components/About.jsx';
-import Services from './components/Services.jsx';
+import About from './components/About.tsx';
+import Services from './components/Services.tsx';
 import Contact from './components/Contact.jsx';
 
 import { useState } from 'react';
@@ -12,6 +13,7 @@ function App() {
   const [bgColor, setBgColor] = useState('bg-green-500'); // Initial background color
 
   const sections = [
+    { id: 'Navbar', component: <Navbar />, color: 'bg-green-500' },
     { id: 'Home', component: <Home />, color: 'bg-green-500' },
     { id: 'About', component: <About />, color: 'bg-blue-400' },
     { id: 'Services', component: <Services />, color: 'bg-green-500' },
@@ -30,9 +32,9 @@ function App() {
           {section.component}
         </Section>
       ))}
-      <footer className='flex items-stretch'>
-        <p>© 2024 by <a href="https://www.linkedin.com/in/aymen-shoteri/" target="_blank" rel="noreferrer">Limeworth X-ray & Ultrasound</a></p>
-        <p>All Rights Reserved</p>
+      <footer className='font-josefin flex items-stretch justify-evenly px-[2vh] py-[1vh] bg-green-200 border-t-2 border-black gap-[50vh]'>
+        <p>© Limeworth X-ray & Ultrasound Inc. Medical Clinic.</p>
+        <p>All Rights Reserved.</p>
       </footer>
     </motion.div>
   );
