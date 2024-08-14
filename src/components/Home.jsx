@@ -1,17 +1,11 @@
-import { motion } from 'framer-motion';
-
 function Home() {
   return (
-    <div className="flex justify-center items-center h-screen bg-green-500">
-      <motion.div
-        className="p-8 bg-white rounded-lg shadow-lg"
-        animate={{ scale: 1.2 }}
-        transition={{ duration: 0.5 }}
-      >
-        <h1 className="text-2xl items-center font-bold p-2">Welcome to Limeworth X-ray & Ultrasound</h1>
-        <h3 className="flex justify-center items-center font-bold p-2">Working Hours (Ultrasounds by Appointment)</h3>
+    <div className="flex flex-col flex-nowrap justify-evenly items-center pt-20">
+      <h1 className="text-[3vh] items-center font-bold p-2">Welcome to Limeworth X-ray & Ultrasound</h1>
+      <div className="p-[2vh] bg-white rounded-lg shadow-lg">
+        <h3 className="flex justify-center items-center font-bold p-[0.5vh]">Working Hours (Ultrasounds by Appointment)</h3>
         <table className="table-auto border-collapse border border-gray-300 w-full text-left">
-          <thead>
+          <thead className="">
             <tr>
               <th className="border border-gray-300 px-4 py-2">Day</th>
               <th className="border border-gray-300 px-4 py-2">Hours</th>
@@ -48,7 +42,7 @@ function Home() {
             </tr>
           </tbody>
         </table>
-      </motion.div>
+      </div>
     </div>
   );
 }
