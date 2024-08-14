@@ -1,9 +1,8 @@
 import React from 'react';
-import { motion } from 'framer-motion';
 
 function Services() {
   return (
-    <div className="m-0 b-0">
+    <div className="m-0 b-0 pb-[30vh]">
       <div className="flex flex-col justify-between items-center">
         <h1 className="text-2xl font-bold pb-[4vh]">Our Services</h1>
 

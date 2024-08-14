@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <div className="flex flex-col flex-nowrap justify-evenly items-center pt-20">
+    <div className="flex flex-col flex-nowrap justify-evenly items-center py-[30vh]">
       <h1 className="text-[3vh] items-center font-bold p-2">Welcome to Limeworth X-ray & Ultrasound</h1>
       <div className="p-[2vh] bg-white rounded-lg shadow-lg">
         <h3 className="flex justify-center items-center font-bold p-[0.5vh]">Working Hours (Ultrasounds by Appointment)</h3>

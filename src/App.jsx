@@ -48,7 +48,7 @@ const Section = ({ id, setBgColor, color, children }) => {
   }
 
   return (
-    <section id={id} ref={ref} className="min-h-screen">
+    <section id={id} ref={ref} className="">
       {children}
     </section>
   );
