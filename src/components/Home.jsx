@@ -8,8 +8,8 @@ function Home() {
       <h1 className="text-[6vh] items-center font-bold pb-[6vh]">Limeworth X-ray & Ultrasound</h1>
       <motion.div whileHover={{ scale: 1.15 }} transition={{ duration: 0.2 }} className=''>
         <div className="p-[2vh] bg-green-800 rounded-lg shadow-lg border border-white">
-          <h3 className="font-bold pb-[1vh]">Working Hours (Ultrasounds by Appointment)</h3>
-          <table className="table-auto border-collapse border border-white w-full text-left">
+          <h3 className="text-[3vh] font-bold pb-[1vh]">Working Hours (Ultrasounds by Appointment)</h3>
+          <table className="text-[3vh] table-auto border-collapse border border-white w-full text-left">
             <thead className="m-0 p-0">
               <tr>
                 <th className="font-bold border border-gray-300 px-4 py-2">Day</th>
