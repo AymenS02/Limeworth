@@ -8,13 +8,13 @@ function About() {
     <div className="font-josefin flex flex-col justify-center items-center pb-[30vh] text-white">
       <Reveal>
         <div
-          className="flex flex-col justify-center items-center text-center p-8 bg-blue-800 rounded-lg shadow-lg mx-[40vh] my-[5vh]">
+          className="flex flex-col justify-center items-center text-center p-8 bg-blue-800 rounded-lg shadow-lg 2xl:mx-[40vh] mx-[5vh]  my-[5vh]">
           <h1 className="text-[6vh] font-bold">About Us</h1>
           <p className="text-[2vh]">We are a diagnostic imaging clinic located in Hamilton Ontario, at the intersection of Mohawk Rd and Upper Wentworth St. Our technologists are experienced, friendly and strive to provide an efficient and relaxed appointment. We also provide services in three languages: English, Arabic and Urdu. Please feel free to contact us if you have any questions.</p>
         </div>
       </Reveal>
       <Reveal>
-        <div className="flex flex-col justify-center items-center text-center p-8 bg-blue-800 rounded-lg shadow-lg mx-[40vh] my-[5vh]">
+        <div className="flex flex-col justify-center items-center text-center p-8 bg-blue-800 rounded-lg shadow-lg 2xl:mx-[40vh] mx-[5vh] my-[5vh]">
           <h1 className="mb-2 text-[4vh] font-bold">How to Schedule an Appointment:</h1>
           <ul className="list-disc list-inside text-[2vh]">
             <li>All exams require a signed requisition from a doctor.</li>

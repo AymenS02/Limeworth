@@ -13,10 +13,10 @@ function App() {
   const [bgColor, setBgColor] = useState('bg-green-500'); // Initial background color
 
   const sections = [
-    { id: 'Navbar', component: <Navbar />, color: 'bg-green-500' },
-    { id: 'Home', component: <Home />, color: 'bg-green-500' },
+    { id: 'Navbar', component: <Navbar />, color: 'bg-green-700' },
+    { id: 'Home', component: <Home />, color: 'bg-green-700' },
     { id: 'About', component: <About />, color: 'bg-blue-400' },
-    { id: 'Services', component: <Services />, color: 'bg-green-500' },
+    { id: 'Services', component: <Services />, color: 'bg-green-700' },
     { id: 'Contact', component: <Contact />, color: 'bg-blue-400' },
   ];
 
