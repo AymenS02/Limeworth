@@ -98,7 +98,7 @@ function Services() {
             <Reveal>
               <div className='mt-10 p-[2vh] bg-green-800 rounded-2xl shadow-lg'>
                 <div className='flex flex-row items-center gap-[2vh]'>
-                  <h2 className="text-[4vh] font-bold ">BMD Test</h2>
+                  <h2 className="text-[4vh] font-bold ">Bone density Test</h2>
                   <div className='flex flex-row items-center gap-[1vh]'>
                     <img src="/checkmark.png" alt="Checkmark" className="h-auto inline-block w-[3vh]" />
                     <h2>Appointment Needed</h2>

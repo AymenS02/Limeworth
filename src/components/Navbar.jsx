@@ -5,13 +5,15 @@ const Navbar = () => {
   return (
     <div className="font-josefin flex bg-green-200 shadow-lg">
       <ul className="nav-links flex flex-row justify-between items-center w-screen gap-[2vh] m-[2vh]">
-        <li className="flex justify-start">
+        <motion.li 
+        whileHover={{ scale: 1.15 }} transition={{ duration: 0.2 }}
+        className="flex justify-start">
           <img 
             src="/limeworth-logo.png" 
             alt="Logo" 
             className="m-0 p-0 w-[15vh]" 
           />
-        </li>
+        </motion.li>
 
         {/* Navigation Links with Motion */}
         <div className="flex flex-row items-center gap-[2vh] font-bold">
