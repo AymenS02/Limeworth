@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Limeworth/static/css/main.d1df251e.css",
+    "main.js": "/Limeworth/static/js/main.3759313b.js",
+    "index.html": "/Limeworth/index.html",
+    "main.d1df251e.css.map": "/Limeworth/static/css/main.d1df251e.css.map",
+    "main.3759313b.js.map": "/Limeworth/static/js/main.3759313b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1df251e.css",
+    "static/js/main.3759313b.js"
+  ]
+}
