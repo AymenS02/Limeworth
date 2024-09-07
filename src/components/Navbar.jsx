@@ -9,7 +9,7 @@ const Navbar = () => {
         whileHover={{ scale: 1.15 }} transition={{ duration: 0.2 }}
         className="flex justify-start">
           <img 
-            src="/limeworth-logo.png" 
+            src={`${process.env.PUBLIC_URL}/limeworth-logo.png`}
             alt="Logo" 
             className="m-0 p-0 w-[15vh]" 
           />

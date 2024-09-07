@@ -27,7 +27,7 @@ function Services() {
         <div className="flex flex-row justify-center align-center m-[10vh] mb-[5vh] gap-[3vh]" >
           <motion.img 
             className="w-[20vh] h-auto mx-10" 
-            src='/xray.png' 
+            src={`${process.env.PUBLIC_URL}/xray.png`}
             alt='X-ray'
             animate={hoverEffect}
           />
@@ -37,7 +37,7 @@ function Services() {
                 <div className='flex flex-row items-center gap-[2vh]'>
                   <h2 className="text-[4vh] font-bold ">X-ray</h2>
                   <div className='flex flex-row items-center gap-[1vh]'>
-                    <img src="/xmark.png" alt="Xmark" className="h-auto inline-block w-[3vh]" />
+                    <img src={`${process.env.PUBLIC_URL}/xmark.png`} alt="Xmark" className="h-auto inline-block w-[3vh]" />
                     <h2>No Appointment Needed</h2>
                   </div>
                 </div>
@@ -54,7 +54,7 @@ function Services() {
                 <div className='flex flex-row items-center gap-[2vh] '>
                   <h2 className="text-[4vh] font-bold ">Ultrasound</h2>
                   <div className='flex flex-row items-center gap-[1vh]'>
-                    <img src="/checkmark.png" alt="Checkmark" className="h-auto inline-block w-[3vh]" />
+                    <img src={`${process.env.PUBLIC_URL}/checkmark.png`} alt="Checkmark" className="h-auto inline-block w-[3vh]" />
                     <h2>Appointment Needed</h2>
                   </div>
                 </div>
@@ -64,7 +64,7 @@ function Services() {
           </motion.div>
           <motion.img 
             className="w-[20vh] h-auto mx-10" 
-            src='/ultrasound.png' 
+            src={`${process.env.PUBLIC_URL}/ultrasound.png`}
             alt='Ultrasound'
             animate={hoverEffect}
           />
@@ -73,7 +73,7 @@ function Services() {
         <div className="flex flex-row justify-center align-center m-[10vh] my-[5vh] gap-[3vh]" >
           <motion.img 
             className="w-[20vh] h-auto mx-10" 
-            src='/mammo.png' 
+            src={`${process.env.PUBLIC_URL}/mammo.png'`}
             alt='Mammography'
             animate={hoverEffect}
           />
@@ -83,7 +83,7 @@ function Services() {
                 <div className='flex flex-row items-center gap-[2vh]'>
                   <h2 className="text-[4vh] font-bold ">Mammography</h2>
                   <div className='flex flex-row items-center gap-[1vh]'>
-                    <img src="/checkmark.png" alt="Xmark" className="h-auto inline-block w-[3vh]" />
+                    <img src={`${process.env.PUBLIC_URL}/checkmark.png`} alt="Xmark" className="h-auto inline-block w-[3vh]" />
                     <h2>Appointment Needed</h2>
                   </div>
                 </div>
@@ -100,7 +100,7 @@ function Services() {
                 <div className='flex flex-row items-center gap-[2vh]'>
                   <h2 className="text-[4vh] font-bold ">Bone density Test</h2>
                   <div className='flex flex-row items-center gap-[1vh]'>
-                    <img src="/checkmark.png" alt="Checkmark" className="h-auto inline-block w-[3vh]" />
+                    <img src={`${process.env.PUBLIC_URL}/checkmark.png`} alt="Checkmark" className="h-auto inline-block w-[3vh]" />
                     <h2>Appointment Needed</h2>
                   </div>
                 </div>
@@ -110,7 +110,7 @@ function Services() {
           </motion.div>
           <motion.img 
             className="w-[20vh] h-auto mx-10" 
-            src='/bone.png' 
+            src={`${process.env.PUBLIC_URL}/bone.png`}
             alt='Bone Density'
             animate={hoverEffect}
           />
