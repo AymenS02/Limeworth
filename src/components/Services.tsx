@@ -73,7 +73,7 @@ function Services() {
         <div className="flex flex-row justify-center align-center m-[10vh] my-[5vh] gap-[3vh]" >
           <motion.img 
             className="w-[20vh] h-auto mx-10" 
-            src={`${process.env.PUBLIC_URL}/mammo.png'`}
+            src={`${process.env.PUBLIC_URL}/mammo.png`}
             alt='Mammography'
             animate={hoverEffect}
           />
