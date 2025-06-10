@@ -33,7 +33,7 @@ function Services() {
           />
           <motion.div whileHover={scaleEffect} >
             <Reveal>
-              <div className='mt-10 p-[2vh] bg-green-800 rounded-2xl shadow-lg'>
+              <div className='mt-10 p-[2vh] bg-green-800 rounded-2xl border-2 border-white'>
                 <div className='flex flex-row items-center gap-[2vh]'>
                   <h2 className="text-[4vh] font-bold ">X-ray</h2>
                   <div className='flex flex-row items-center gap-[1vh]'>
@@ -50,7 +50,7 @@ function Services() {
         <div className="flex flex-row justify-center align-center m-[10vh] my-[5vh] gap-[3vh]" >
           <motion.div whileHover={scaleEffect} >
             <Reveal>
-              <div className='mt-10 p-[2vh] bg-green-800 rounded-2xl shadow-lg'>
+              <div className='mt-10 p-[2vh] bg-green-800 rounded-2xl border-2 border-white'>
                 <div className='flex flex-row items-center gap-[2vh] '>
                   <h2 className="text-[4vh] font-bold ">Ultrasound</h2>
                   <div className='flex flex-row items-center gap-[1vh]'>
@@ -79,7 +79,7 @@ function Services() {
           />
           <motion.div whileHover={scaleEffect} >
             <Reveal>
-              <div className='mt-10 p-[2vh] bg-green-800 rounded-2xl shadow-lg'>
+              <div className='mt-10 p-[2vh] bg-green-800 rounded-2xl border-2 border-white'>
                 <div className='flex flex-row items-center gap-[2vh]'>
                   <h2 className="text-[4vh] font-bold ">Mammography</h2>
                   <div className='flex flex-row items-center gap-[1vh]'>
@@ -96,7 +96,7 @@ function Services() {
         <div className="flex flex-row justify-center align-center m-[10vh] my-[5vh] gap-[3vh]">
           <motion.div whileHover={scaleEffect} >
             <Reveal>
-              <div className='mt-10 p-[2vh] bg-green-800 rounded-2xl shadow-lg'>
+              <div className='mt-10 p-[2vh] bg-green-800 rounded-2xl border-2 border-white'>
                 <div className='flex flex-row items-center gap-[2vh]'>
                   <h2 className="text-[4vh] font-bold ">Bone density Test</h2>
                   <div className='flex flex-row items-center gap-[1vh]'>
