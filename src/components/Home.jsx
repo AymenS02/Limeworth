@@ -27,7 +27,7 @@ function Home() {
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-2">Wednesday</td>
-                <td className="border border-gray-300 px-4 py-2">8AM - 5PM</td>
+                <td className="border border-gray-300 px-4 py-2">8AM - 6PM</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-2">Thursday</td>
@@ -35,7 +35,7 @@ function Home() {
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-2">Friday</td>
-                <td className="border border-gray-300 px-4 py-2">8AM - 5PM</td>
+                <td className="border border-gray-300 px-4 py-2">8AM - 6PM</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-2">Saturday</td>
