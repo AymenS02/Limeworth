@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Navbar = () => {
   return (
-    <div className="font-josefin flex bg-green-200 shadow-lg">
+    <div className="font-josefin flex bg-transparent">
       <ul className="nav-links flex flex-row justify-between items-center w-screen gap-[2vh] m-[2vh]">
         <motion.li 
         whileHover={{ scale: 1.15 }} transition={{ duration: 0.2 }}
@@ -21,7 +21,7 @@ const Navbar = () => {
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.9 }}
             transition={{ type: 'spring', stiffness: 400, damping: 17 }}
-            className="nav-link-container bg-blue-400 text-white hover:bg-green-500 hover:text-black transition-all duration-300 px-6 py-1 rounded-2xl"
+            className="shadow-lg nav-link-container bg-blue-400 text-white hover:bg-green-500 hover:text-black transition-all duration-300 px-6 py-1 rounded-2xl"
           >
             <a href="/" className="nav-link">Home</a>
           </motion.div>
@@ -29,7 +29,7 @@ const Navbar = () => {
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.9 }}
             transition={{ type: 'spring', stiffness: 400, damping: 17 }}
-            className="nav-link-container bg-blue-400 text-white hover:bg-green-500 hover:text-black transition-all duration-300 px-6 py-1 rounded-2xl"
+            className="shadow-lg nav-link-container bg-blue-400 text-white hover:bg-green-500 hover:text-black transition-all duration-300 px-6 py-1 rounded-2xl"
           >
             <a href="/about" className="nav-link">About</a>
           </motion.div>
@@ -37,7 +37,7 @@ const Navbar = () => {
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.9 }}
             transition={{ type: 'spring', stiffness: 400, damping: 17 }}
-            className="nav-link-container bg-blue-400 text-white hover:bg-green-500 hover:text-black transition-all duration-300 px-6 py-1 rounded-2xl"
+            className="shadow-lg nav-link-container bg-blue-400 text-white hover:bg-green-500 hover:text-black transition-all duration-300 px-6 py-1 rounded-2xl"
           >
             <a href="/services" className="nav-link">Services</a>
           </motion.div>
@@ -45,7 +45,7 @@ const Navbar = () => {
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.9 }}
             transition={{ type: 'spring', stiffness: 400, damping: 17 }}
-            className="nav-link-container bg-blue-400 text-white hover:bg-green-500 hover:text-black transition-all duration-300 px-6 py-1 rounded-2xl "
+            className="shadow-lg nav-link-container bg-blue-400 text-white hover:bg-green-500 hover:text-black transition-all duration-300 px-6 py-1 rounded-2xl "
           >
             <a href="/contact" className="nav-link">Contact</a>
           </motion.div>
